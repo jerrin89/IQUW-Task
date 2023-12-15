@@ -1,6 +1,6 @@
 # Selenium WebDriver with Cucumber Framework 
 ## Overview
-This repository contains an automated regression testing framework built using Selenium WebDriver and Cucumber for a retail company's website. The framework aims to validate the success of a user journey (e.g., Item – Cart – Checkout) on the website SauceDemo.
+This repository contains an automated regression testing framework built using Selenium WebDriver and Cucumber for a retail company's website. The framework aims to validate the success of a user journey (e.g., Book online windscreen repire) on the ers website.
 
 ## Prerequisites
 Before running the automated tests, make sure you have the following prerequisites installed:
