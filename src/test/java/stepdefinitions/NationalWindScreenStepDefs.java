@@ -20,8 +20,8 @@ public class NationalWindScreenStepDefs {
         iFillTheOnlineFormAnClickNext(dataTable);
     }
 
-    @And("I select the date an click next button")
-    public void iSelectTheDateAnClickNextButton() {
+    @And("I select the date and click next button")
+    public void iSelectTheDateAndClickNextButton() {
         selectTheDateAndClickNextButton(LocalDate.now().minusDays(1).getDayOfMonth());
     }
 

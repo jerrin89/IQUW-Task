@@ -13,7 +13,7 @@ Feature: Windscreen Repairs Booking
       | customer_name  | Test123        |
       | customer_phone | 07429023086    |
       | customer_email | john@gmail.com |
-    And I select the date an click next button
+    And I select the date and click next button
     Then I should get 'Policy not found' message
 
 
