@@ -39,7 +39,6 @@ public class Driver {
         // Add a shutdown hook to quit the driver when the JVM exits
         Runtime.getRuntime().addShutdownHook(new Thread(driver::quit, "Driver shutdown thread"));
 
-        // Set the driver in the ThreadLocal for later use
         driverThreadLocal.set(driver);
 
         return driver;
