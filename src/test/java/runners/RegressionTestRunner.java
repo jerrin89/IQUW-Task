@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
         glue = "stepdefinitions",
         plugin = {"pretty", "html:target/cucumber-reports", "rerun:target/rerun.txt"},
         dryRun = false,
-        tags = "@regression" // Add your desired tags here
+        tags = "@regression"
 )
 public class RegressionTestRunner {
 }
